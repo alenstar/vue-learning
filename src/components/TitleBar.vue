@@ -1,6 +1,6 @@
 <template>
   <div class="title-bar">
-    <el-row>
+    <el-row type="flex" justify="start" align="top">
       <el-col :span="20">
         <div class="grid-content bg-purple-dark">
           <el-menu theme="dark" default-active="1" class="el-menu-demo" mode="horizontal" @select="menuSelect">
